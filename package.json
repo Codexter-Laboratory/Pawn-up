@@ -10,10 +10,16 @@
   },
   "dependencies": {
     "@prisma/client": "6",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@tanstack/react-query": "^5.94.5",
+    "chess.js": "^1.4.0",
     "next": "latest",
-    "recharts": "latest",
+    "postcss": "^8.5.8",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "recharts": "latest",
+    "tailwindcss": "^4.2.2",
+    "zustand": "^5.0.12"
   },
   "devDependencies": {
     "@types/node": "latest",
@@ -23,4 +29,3 @@
     "typescript": "latest"
   }
 }
-
