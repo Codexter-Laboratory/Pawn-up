@@ -1,4 +1,4 @@
-# Fix My Chess
+# Pawn Up
 
 Track your Chess.com puzzle habits and streaks in one dashboard.
 
@@ -7,7 +7,7 @@ This project uses Chess.com’s public API (PubAPI) to ingest:
 
 ## Local setup
 
-1. Install deps (from the project root `fix-my-chess`)
+1. Install deps (from the project root `pawn-up`)
    - `npm install`
 2. Create your env file
    - Copy `.env.example` to `.env.local`
@@ -35,4 +35,3 @@ The UI also has an “Ingest now” button.
 “Puzzle Rush Activity Streak” is computed from your stored daily snapshots as consecutive days where the Puzzle Rush daily attempts counter increased.
 
 For best accuracy, run ingest daily.
-
