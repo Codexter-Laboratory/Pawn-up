@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Fix My Chess',
-  description: 'Chess.com puzzle progress dashboard',
+  title: 'Pawn Up',
+  description: 'Chess.com stats, ratings, and progress in one dashboard.',
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
       <body>
         <div className="appShell">
           <header className="appHeader">
-            <div className="brand">Fix My Chess</div>
+            <div className="brand">Pawn Up</div>
           </header>
           <main className="appMain">{children}</main>
         </div>
